@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    min-height: 100%;
+    background-color: #c0eafe;
+}
+
+.grid-container > * {
+    box-shadow: -1px 1px 0px black;
+    border-radius: 4px;
+/*     padding: 10px; */
+    text-align: center;
+}
+
+.hero {
+    grid-area: hero;
+    display: flex;
+}
+
+.part-one {
+    background-color: #23315E;
+    width: 80%;
+    float: left;
+}
+.part-two {
+    background-color: #0084ba;
+    width: 20%;
+    float: right;
+}
+
+.Nat {
+    position: absolute;
+    left: 16%;
+}
+
+.logo {
+    height: 150px;
+    margin-left: -90%;
+}
+
+.mainheader-subtitle {
+    margin-top: 2%;
+    margin-left: 200px;
+    position: absolute;
+}
+.mainheader-subtitle h2 {
+    color: #c0eafe;
+    font-size: 40px;
+}
+.mainheader-subtitle p {
+    color: #c0eafe;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.mainheader-subtitle button {
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: #FF823C;
+    color: #c0eafe;
+    font-weight: bold;
+    margin-top: 50px;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+.beneficts {
+    grid-area: beneficts;
+    background-color: #c0eafe;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 10px 10px 10px 0px #00000040 inset;
+    margin-left: -30px;
+}
+
+.container {
+/*     border: black solid 1px; */
+    display: grid;
+}
+.container p {
+    margin-top: -150px;
+    width: 400px;
+    margin-left: 220px;
+}
+
+.circle {
+    border-radius: 100%;
+    height: 160px;
+    width: 160px;
+    border: #FF823C solid 2px;
+    margin-left: 50px;
+    margin-top: 74px;
+    background-color: #23315E;
+}
+
+.circle img {
+    margin-top: 20px;
+}
+
+
+.services {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color:#c0eafe;
+}
+
+.spacer {
+    grid-area: spacer;
+    background-color: #c0eafe;
+}
+
+
+.faq-section {
+    grid: faq;
+    background-color: #c0eafe;
+    display: grid;
+    justify-content: center;
+}
+
+.accordion {
+    width: 900px;
+    margin-top: -150px;
+}
+
+
+.CTA2 {
+    grid-area: CTA2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #c0eafe;
+}
+
+.CTA2 button {
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: #FF823C;
+    color: #feffff;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: -300px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #23315E;
+    color:#ffffff;
+}
+
+.footer p {
+    margin-top: 100px;
+}
+
+
+
+
+
+.grid-container {
+    display: grid;
+/*     gap: 10px; */
+    grid-template: 
+        "hero" 660px
+        "beneficts" 340px
+        "services"900px
+        "spacer" 100px
+        "faq" 700px
+        "CTA2" 100px
+        "footer" 200px
+        ;
+}
+
+.footer {
+    height: 300px;
+}
+
+.footer img {
+    margin-top: 80px;
+}
+
+
+.copyright {
+    width: 100%;
+    background-color: #0084ba;
+    height: 60px;
+    margin-top: 150px;
+}
+
+
+
+
+
+
+
